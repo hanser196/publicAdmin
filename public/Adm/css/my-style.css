@@ -1,0 +1,187 @@
+.main-sidebar{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.main-sidebar::-webkit-scrollbar{
+    display: none;
+}
+/* 首页信息 */
+.index-info .index-info-logo,.index-info .index-info-qrcode,.index-info-company-title{
+    text-align: center;
+    vertical-align: middle;
+}
+.index-info .index-info-thumbnail{
+    font-size: 0;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.index-info .index-info-thumbnail>img{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.index-info .index-info-btn{
+    text-align: center;
+    vertical-align:middle;
+}
+.index-info-company-main .index-info-company{
+    margin-bottom: 5px;
+}
+.index-info-company-main .index-info-company:last-child{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.replace_pic{
+    width: 154px;
+    height: 154px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(/Adm/images/image_add.png) center top no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.replace_pic>input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+.replace_pic>input:hover{
+    cursor: pointer;
+}
+.index-info-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 新闻 */
+.modal-footer{
+    text-align: left;
+}
+.modal-footer-content{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-footer-content .modal-footer-content-introduction{
+    width: 60%;
+}
+.modal-footer-content .modal-footer-content-thumbnail{
+    font-size: 0;
+    width: 30%;
+}
+.modal-footer-content .modal-footer-content-thumbnail img{
+    display: block;
+    width: 100%;
+}
+.modal-footer .modal-footer-title{
+    line-height: 34px;
+    height: 34px;
+}
+/* 轮播图 */
+.loop_list{
+    padding: 10px 0 ;
+}
+.browse_pic{
+    width: 154px;
+    height: 154px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(/Adm/images/image_add.png) center top no-repeat;
+    background-size: 100% 100%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.browse_pic:last-child{
+    margin-right: 0;
+}
+.browse_pic>input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+.browse_pic>input:hover{
+    cursor: pointer;
+}
+.browse_pic .browse_pic_item,.replace_pic .browse_pic_item{
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    position: relative;
+    z-index: 3;
+}
+.browse_pic .browse_pic_item>img,.replace_pic .browse_pic_item>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.browse_pic_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.loop_add_slot:hover{
+    cursor: pointer;
+}
+.mine-loop-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.loop-btn{
+    width: 45%;
+}
+.loop-position-type{
+    width: 45%;
+}
